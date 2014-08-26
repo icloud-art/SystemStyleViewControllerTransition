@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D17F56FD195960AC0003F1C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17F56FC195960AC0003F1C4 /* Foundation.framework */; };
+		D17F56FF195960AC0003F1C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17F56FE195960AC0003F1C4 /* CoreGraphics.framework */; };
+		D17F5701195960AC0003F1C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17F5700195960AC0003F1C4 /* UIKit.framework */; };
+		D17F5707195960AC0003F1C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D17F5705195960AC0003F1C4 /* InfoPlist.strings */; };
+		D17F5709195960AC0003F1C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D17F5708195960AC0003F1C4 /* main.m */; };
+		D17F570D195960AC0003F1C4 /* CLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D17F570C195960AC0003F1C4 /* CLAppDelegate.m */; };
+		D17F570F195960AC0003F1C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17F570E195960AC0003F1C4 /* Images.xcassets */; };
+		D17F5716195960AC0003F1C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17F5715195960AC0003F1C4 /* XCTest.framework */; };
+		D17F5717195960AC0003F1C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17F56FC195960AC0003F1C4 /* Foundation.framework */; };
+		D17F5718195960AC0003F1C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17F5700195960AC0003F1C4 /* UIKit.framework */; };
+		D17F5720195960AC0003F1C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D17F571E195960AC0003F1C4 /* InfoPlist.strings */; };
+		D17F5722195960AC0003F1C4 /* NavigationTrasionViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D17F5721195960AC0003F1C4 /* NavigationTrasionViewControllerTests.m */; };
+		D17F572D195960B70003F1C4 /* CLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17F572C195960B70003F1C4 /* CLRootViewController.m */; };
+		D17F5730195960F50003F1C4 /* CLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17F572F195960F50003F1C4 /* CLSecondViewController.m */; };
+		D17F5733195961BD0003F1C4 /* CLAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D17F5732195961BC0003F1C4 /* CLAnimator.m */; };
+		D17F57361959633C0003F1C4 /* CLNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D17F57351959633C0003F1C4 /* CLNavigationControllerDelegate.m */; };
+		D1FAA52E195A9CA400BEA560 /* CLPopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FAA52D195A9CA400BEA560 /* CLPopAnimator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D17F5719195960AC0003F1C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17F56F1195960AC0003F1C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D17F56F8195960AC0003F1C4;
+			remoteInfo = NavigationTrasionViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D17F56F9195960AC0003F1C4 /* NavigationTrasionViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationTrasionViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17F56FC195960AC0003F1C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D17F56FE195960AC0003F1C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D17F5700195960AC0003F1C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D17F5704195960AC0003F1C4 /* NavigationTrasionViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationTrasionViewController-Info.plist"; sourceTree = "<group>"; };
+		D17F5706195960AC0003F1C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D17F5708195960AC0003F1C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D17F570A195960AC0003F1C4 /* NavigationTrasionViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationTrasionViewController-Prefix.pch"; sourceTree = "<group>"; };
+		D17F570B195960AC0003F1C4 /* CLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAppDelegate.h; sourceTree = "<group>"; };
+		D17F570C195960AC0003F1C4 /* CLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAppDelegate.m; sourceTree = "<group>"; };
+		D17F570E195960AC0003F1C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D17F5714195960AC0003F1C4 /* NavigationTrasionViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTrasionViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17F5715195960AC0003F1C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D17F571D195960AC0003F1C4 /* NavigationTrasionViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationTrasionViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		D17F571F195960AC0003F1C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D17F5721195960AC0003F1C4 /* NavigationTrasionViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTrasionViewControllerTests.m; sourceTree = "<group>"; };
+		D17F572B195960B70003F1C4 /* CLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRootViewController.h; sourceTree = "<group>"; };
+		D17F572C195960B70003F1C4 /* CLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLRootViewController.m; sourceTree = "<group>"; };
+		D17F572E195960F50003F1C4 /* CLSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSecondViewController.h; sourceTree = "<group>"; };
+		D17F572F195960F50003F1C4 /* CLSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSecondViewController.m; sourceTree = "<group>"; };
+		D17F5731195961BC0003F1C4 /* CLAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAnimator.h; sourceTree = "<group>"; };
+		D17F5732195961BC0003F1C4 /* CLAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAnimator.m; sourceTree = "<group>"; };
+		D17F57341959633C0003F1C4 /* CLNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		D17F57351959633C0003F1C4 /* CLNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		D1FAA52C195A9CA400BEA560 /* CLPopAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPopAnimator.h; sourceTree = "<group>"; };
+		D1FAA52D195A9CA400BEA560 /* CLPopAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPopAnimator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D17F56F6195960AC0003F1C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17F56FF195960AC0003F1C4 /* CoreGraphics.framework in Frameworks */,
+				D17F5701195960AC0003F1C4 /* UIKit.framework in Frameworks */,
+				D17F56FD195960AC0003F1C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17F5711195960AC0003F1C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17F5716195960AC0003F1C4 /* XCTest.framework in Frameworks */,
+				D17F5718195960AC0003F1C4 /* UIKit.framework in Frameworks */,
+				D17F5717195960AC0003F1C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D17F56F0195960AC0003F1C4 = {
+			isa = PBXGroup;
+			children = (
+				D17F5702195960AC0003F1C4 /* NavigationTrasionViewController */,
+				D17F571B195960AC0003F1C4 /* NavigationTrasionViewControllerTests */,
+				D17F56FB195960AC0003F1C4 /* Frameworks */,
+				D17F56FA195960AC0003F1C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D17F56FA195960AC0003F1C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D17F56F9195960AC0003F1C4 /* NavigationTrasionViewController.app */,
+				D17F5714195960AC0003F1C4 /* NavigationTrasionViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D17F56FB195960AC0003F1C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D17F56FC195960AC0003F1C4 /* Foundation.framework */,
+				D17F56FE195960AC0003F1C4 /* CoreGraphics.framework */,
+				D17F5700195960AC0003F1C4 /* UIKit.framework */,
+				D17F5715195960AC0003F1C4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D17F5702195960AC0003F1C4 /* NavigationTrasionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D17F570B195960AC0003F1C4 /* CLAppDelegate.h */,
+				D17F570C195960AC0003F1C4 /* CLAppDelegate.m */,
+				D17F572B195960B70003F1C4 /* CLRootViewController.h */,
+				D17F572C195960B70003F1C4 /* CLRootViewController.m */,
+				D17F572E195960F50003F1C4 /* CLSecondViewController.h */,
+				D17F572F195960F50003F1C4 /* CLSecondViewController.m */,
+				D17F5731195961BC0003F1C4 /* CLAnimator.h */,
+				D17F5732195961BC0003F1C4 /* CLAnimator.m */,
+				D1FAA52C195A9CA400BEA560 /* CLPopAnimator.h */,
+				D1FAA52D195A9CA400BEA560 /* CLPopAnimator.m */,
+				D17F57341959633C0003F1C4 /* CLNavigationControllerDelegate.h */,
+				D17F57351959633C0003F1C4 /* CLNavigationControllerDelegate.m */,
+				D17F570E195960AC0003F1C4 /* Images.xcassets */,
+				D17F5703195960AC0003F1C4 /* Supporting Files */,
+			);
+			path = NavigationTrasionViewController;
+			sourceTree = "<group>";
+		};
+		D17F5703195960AC0003F1C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D17F5704195960AC0003F1C4 /* NavigationTrasionViewController-Info.plist */,
+				D17F5705195960AC0003F1C4 /* InfoPlist.strings */,
+				D17F5708195960AC0003F1C4 /* main.m */,
+				D17F570A195960AC0003F1C4 /* NavigationTrasionViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D17F571B195960AC0003F1C4 /* NavigationTrasionViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D17F5721195960AC0003F1C4 /* NavigationTrasionViewControllerTests.m */,
+				D17F571C195960AC0003F1C4 /* Supporting Files */,
+			);
+			path = NavigationTrasionViewControllerTests;
+			sourceTree = "<group>";
+		};
+		D17F571C195960AC0003F1C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D17F571D195960AC0003F1C4 /* NavigationTrasionViewControllerTests-Info.plist */,
+				D17F571E195960AC0003F1C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D17F56F8195960AC0003F1C4 /* NavigationTrasionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17F5725195960AC0003F1C4 /* Build configuration list for PBXNativeTarget "NavigationTrasionViewController" */;
+			buildPhases = (
+				D17F56F5195960AC0003F1C4 /* Sources */,
+				D17F56F6195960AC0003F1C4 /* Frameworks */,
+				D17F56F7195960AC0003F1C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationTrasionViewController;
+			productName = NavigationTrasionViewController;
+			productReference = D17F56F9195960AC0003F1C4 /* NavigationTrasionViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D17F5713195960AC0003F1C4 /* NavigationTrasionViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17F5728195960AC0003F1C4 /* Build configuration list for PBXNativeTarget "NavigationTrasionViewControllerTests" */;
+			buildPhases = (
+				D17F5710195960AC0003F1C4 /* Sources */,
+				D17F5711195960AC0003F1C4 /* Frameworks */,
+				D17F5712195960AC0003F1C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17F571A195960AC0003F1C4 /* PBXTargetDependency */,
+			);
+			name = NavigationTrasionViewControllerTests;
+			productName = NavigationTrasionViewControllerTests;
+			productReference = D17F5714195960AC0003F1C4 /* NavigationTrasionViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D17F56F1195960AC0003F1C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Grace Leo";
+				TargetAttributes = {
+					D17F5713195960AC0003F1C4 = {
+						TestTargetID = D17F56F8195960AC0003F1C4;
+					};
+				};
+			};
+			buildConfigurationList = D17F56F4195960AC0003F1C4 /* Build configuration list for PBXProject "NavigationTrasionViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D17F56F0195960AC0003F1C4;
+			productRefGroup = D17F56FA195960AC0003F1C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D17F56F8195960AC0003F1C4 /* NavigationTrasionViewController */,
+				D17F5713195960AC0003F1C4 /* NavigationTrasionViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D17F56F7195960AC0003F1C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17F5707195960AC0003F1C4 /* InfoPlist.strings in Resources */,
+				D17F570F195960AC0003F1C4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17F5712195960AC0003F1C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17F5720195960AC0003F1C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D17F56F5195960AC0003F1C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FAA52E195A9CA400BEA560 /* CLPopAnimator.m in Sources */,
+				D17F5709195960AC0003F1C4 /* main.m in Sources */,
+				D17F5733195961BD0003F1C4 /* CLAnimator.m in Sources */,
+				D17F5730195960F50003F1C4 /* CLSecondViewController.m in Sources */,
+				D17F570D195960AC0003F1C4 /* CLAppDelegate.m in Sources */,
+				D17F57361959633C0003F1C4 /* CLNavigationControllerDelegate.m in Sources */,
+				D17F572D195960B70003F1C4 /* CLRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17F5710195960AC0003F1C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17F5722195960AC0003F1C4 /* NavigationTrasionViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D17F571A195960AC0003F1C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D17F56F8195960AC0003F1C4 /* NavigationTrasionViewController */;
+			targetProxy = D17F5719195960AC0003F1C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D17F5705195960AC0003F1C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D17F5706195960AC0003F1C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D17F571E195960AC0003F1C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D17F571F195960AC0003F1C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D17F5723195960AC0003F1C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D17F5724195960AC0003F1C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D17F5726195960AC0003F1C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTrasionViewController/NavigationTrasionViewController-Prefix.pch";
+				INFOPLIST_FILE = "NavigationTrasionViewController/NavigationTrasionViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D17F5727195960AC0003F1C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTrasionViewController/NavigationTrasionViewController-Prefix.pch";
+				INFOPLIST_FILE = "NavigationTrasionViewController/NavigationTrasionViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D17F5729195960AC0003F1C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationTrasionViewController.app/NavigationTrasionViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTrasionViewController/NavigationTrasionViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NavigationTrasionViewControllerTests/NavigationTrasionViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D17F572A195960AC0003F1C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationTrasionViewController.app/NavigationTrasionViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTrasionViewController/NavigationTrasionViewController-Prefix.pch";
+				INFOPLIST_FILE = "NavigationTrasionViewControllerTests/NavigationTrasionViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D17F56F4195960AC0003F1C4 /* Build configuration list for PBXProject "NavigationTrasionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17F5723195960AC0003F1C4 /* Debug */,
+				D17F5724195960AC0003F1C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17F5725195960AC0003F1C4 /* Build configuration list for PBXNativeTarget "NavigationTrasionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17F5726195960AC0003F1C4 /* Debug */,
+				D17F5727195960AC0003F1C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17F5728195960AC0003F1C4 /* Build configuration list for PBXNativeTarget "NavigationTrasionViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17F5729195960AC0003F1C4 /* Debug */,
+				D17F572A195960AC0003F1C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D17F56F1195960AC0003F1C4 /* Project object */;
+}
