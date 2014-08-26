@@ -24,12 +24,12 @@
 }
 - (void)viewWillAppear:(BOOL)animated
 {
-    self.view.frame = CGRectMake(0, 0, 320, 568);
+    //self.view.frame = CGRectMake(0, 0, 320, 568);
 }
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor yellowColor];
+    self.view.backgroundColor = [UIColor greenColor];
     // Do any additional setup after loading the view.
 }
 

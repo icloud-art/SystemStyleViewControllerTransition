@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBE4BEB119AC716100B4F288 /* ff_IconFacebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE4BEAD19AC716100B4F288 /* ff_IconFacebook@2x.png */; };
+		CBE4BEB219AC716100B4F288 /* ff_IconLocationService@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE4BEAE19AC716100B4F288 /* ff_IconLocationService@2x.png */; };
+		CBE4BEB319AC716100B4F288 /* ff_IconShowFaceBook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE4BEAF19AC716100B4F288 /* ff_IconShowFaceBook@2x.png */; };
+		CBE4BEB419AC716100B4F288 /* ff_IconShowMobile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE4BEB019AC716100B4F288 /* ff_IconShowMobile@2x.png */; };
 		D17F56FD195960AC0003F1C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17F56FC195960AC0003F1C4 /* Foundation.framework */; };
 		D17F56FF195960AC0003F1C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17F56FE195960AC0003F1C4 /* CoreGraphics.framework */; };
 		D17F5701195960AC0003F1C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17F5700195960AC0003F1C4 /* UIKit.framework */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBE4BEAD19AC716100B4F288 /* ff_IconFacebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_IconFacebook@2x.png"; sourceTree = "<group>"; };
+		CBE4BEAE19AC716100B4F288 /* ff_IconLocationService@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_IconLocationService@2x.png"; sourceTree = "<group>"; };
+		CBE4BEAF19AC716100B4F288 /* ff_IconShowFaceBook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_IconShowFaceBook@2x.png"; sourceTree = "<group>"; };
+		CBE4BEB019AC716100B4F288 /* ff_IconShowMobile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_IconShowMobile@2x.png"; sourceTree = "<group>"; };
 		D17F56F9195960AC0003F1C4 /* NavigationTrasionViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationTrasionViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17F56FC195960AC0003F1C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D17F56FE195960AC0003F1C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -143,6 +151,10 @@
 		D17F5703195960AC0003F1C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CBE4BEAD19AC716100B4F288 /* ff_IconFacebook@2x.png */,
+				CBE4BEAE19AC716100B4F288 /* ff_IconLocationService@2x.png */,
+				CBE4BEAF19AC716100B4F288 /* ff_IconShowFaceBook@2x.png */,
+				CBE4BEB019AC716100B4F288 /* ff_IconShowMobile@2x.png */,
 				D17F5704195960AC0003F1C4 /* NavigationTrasionViewController-Info.plist */,
 				D17F5705195960AC0003F1C4 /* InfoPlist.strings */,
 				D17F5708195960AC0003F1C4 /* main.m */,
@@ -245,8 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE4BEB219AC716100B4F288 /* ff_IconLocationService@2x.png in Resources */,
 				D17F5707195960AC0003F1C4 /* InfoPlist.strings in Resources */,
+				CBE4BEB419AC716100B4F288 /* ff_IconShowMobile@2x.png in Resources */,
+				CBE4BEB319AC716100B4F288 /* ff_IconShowFaceBook@2x.png in Resources */,
 				D17F570F195960AC0003F1C4 /* Images.xcassets in Resources */,
+				CBE4BEB119AC716100B4F288 /* ff_IconFacebook@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

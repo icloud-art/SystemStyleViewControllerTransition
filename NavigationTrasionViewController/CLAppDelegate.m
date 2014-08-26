@@ -11,6 +11,8 @@
 
 @implementation CLAppDelegate
 @synthesize mNavCtrl;
+@synthesize mTouchPoint;
+@synthesize mTouchView;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

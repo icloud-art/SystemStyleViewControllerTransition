@@ -7,11 +7,11 @@
 //
 
 #import "CLAnimator.h"
-
+#import "CLAppDelegate.h"
 @implementation CLAnimator
 
 -(NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext{
-    return 1;
+    return 0.45;
 }
 -(void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{
     NSLog(@"尼玛1");
@@ -21,14 +21,12 @@
     toViewController.view.alpha = 0;
     
     [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
-      // fromViewController.view.transform = CGAffineTransformMakeScale(2,2);
-        fromViewController.view.transform = CGAffineTransformScale(CGAffineTransformMakeScale(0, 0), 2, 2);
-       // fromViewController.view.transform = CGAffineTransformMakeTranslation(320,0);//右移动画
+        fromViewController.view.transform = CGAffineTransformMakeScale(2,2);
+        toViewController.view.transform = CGAffineTransformMakeScale(1, 1);
         toViewController.view.alpha = 1;
     } completion:^(BOOL finished) {
         fromViewController.view.transform = CGAffineTransformIdentity;
         [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
-        
     }];
     
 }
