@@ -30,15 +30,10 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-//    UIButton * button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-//    button.frame = CGRectMake(100, 120, 120, 40);
-//    [button setTitle:@"PUSH" forState:UIControlStateNormal];
-//    [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
-//    [self.view addSubview:button];
     int flag = 100;
     for ( int i = 0; i<2; i++) {
         for (int j = 0; j<2; j++) {
-            UIView * view = [[UIView alloc]initWithFrame:CGRectMake(i* 90+ 80,j* 90+ 80, 80, 80)];
+            UIView * view = [[UIView alloc]initWithFrame:CGRectMake(i* 90+ 80,j* 90+ 200, 80, 80)];
             view.backgroundColor = [UIColor greenColor];
             UITapGestureRecognizer * singleTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapOneClick:)];
             view.userInteractionEnabled = YES;
@@ -61,11 +56,10 @@
         gesture.view.frame = self.view.bounds;
     } completion:^(BOOL finished) {
         
-        
     }];
     CLSecondViewController * sendView = [[CLSecondViewController alloc]init];
     sendView.mPoint = self.mPoint;
-    sendView.view.frame = CGRectMake(center.x, center.y, self.view.frame.size.width, self.view.frame.size.height);
+    sendView.view.frame = CGRectZero;
     [self.navigationController pushViewController:sendView animated:YES];
 }
 - (void)viewDidDisappear:(BOOL)animated
